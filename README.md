@@ -44,4 +44,17 @@ iii) Reset: To retrieve the original table, click the button to fetch the origin
 
 3) Sign Out: To sign out, simply click on the profile button in the navigation bar, to sign out simply click the sign out button, this will return you to the login page. 
    
+---
 
+Technical Document
+
+Technologies used:
+<ul>
+        <li>Supabase</li>
+        <ul><li>For the database, I used Supabase, which is a cloud-based relational database management system (RDBMS). Supabase provided a scalable solution for storing employee data and efficiently handling user authentication, ensuring that the correct information was displayed for each logged-in user. Each employee has only a certain number of attributes that need to be addressed hence a RDBMS works perfectly in this scenario. </li></ul>
+        <li>vueJS</li>
+        <ul><li>To create each of the pages and components I used vueJS. This allowed me to easily create reusable components, specify specific operations for each of those components. With the help of the router, routing between different pages becomes more efficient and easier to handle in an application, aiding in the user experience. </li></ul>
+        <li>Firebase</li>
+        <ul><li>To deploy my application I used the free deployment platform Firebase.</li></ul>
+        
+</ul>

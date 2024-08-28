@@ -58,3 +58,6 @@ Technologies used:
         <ul><li>To deploy my application I used the free deployment platform Firebase.</li></ul>
         
 </ul>
+
+Since the database is hosted on a remote server, I used client-server architecture in my application. The client (my code) sends a request the the database server (Supabase) which in turn returns the data that I have requested.
+Since it was a small application, I did not use any design patterns although many could have been incorporated such as the Singleton for the Supabase instances and to make requests to that database.

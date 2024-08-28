@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPI-USE TA</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyBxw_C9aujIIDtd44lnR8_-rItwS9fTseU",
+        authDomain: "epi-use-ta.firebaseapp.com",
+        projectId: "epi-use-ta",
+        storageBucket: "epi-use-ta.appspot.com",
+        messagingSenderId: "120320519574",
+        appId: "1:120320519574:web:33b1b3346135f7c266c1b7",
+        measurementId: "G-6DSSTP4HCC"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

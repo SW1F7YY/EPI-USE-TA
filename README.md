@@ -1,4 +1,4 @@
-My EPI-USE Graduate program technical assignment
+My EPI-USE Graduate Program Technical Assignment
 ------------------------------------------------
 User manual:
 <ol>
